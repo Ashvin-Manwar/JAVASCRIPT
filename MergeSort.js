@@ -17,8 +17,7 @@ function mergesort(arr) {
         sortedArr.push(rightArr.shift())
       }
     }
-    const resultArr = [...sortedArr, ...leftArr, ...rightArr]
-    return resultArr
+    return [...sortedArr, ...leftArr, ...rightArr] 
   }
   
   const arr = [8, 20, -2, 4, -6]
