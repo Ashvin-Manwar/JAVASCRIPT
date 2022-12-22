@@ -3,7 +3,7 @@ map.set('c',3)
 map.delete('c')
 console.log(map.has('a'))
 console.log(map.size)
-map.clear()
+// map.clear()
 
 for(const [key ,value]of map){
     console.log('${key}:${value}')
