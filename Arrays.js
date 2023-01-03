@@ -1,6 +1,6 @@
 // const arr=[1,2,3,'ashvin']
 // arr.push(4)// add end of the array o/p is 1 2 3 ashvin 4
-// arr.unshift(0)// add o to start od array o/p is 0 1 2 3 ashvin 4
+// arr.unshift(0)// add o to start of array o/p is 0 1 2 3 ashvin 4
 // arr.pop()// remove end element i e 4 
 // arr.shift()//remove start element i.e 0
 
@@ -8,7 +8,7 @@
 //     console.log(item)
 // }
 
-// //The concat() Method
+//The concat() Method
 
 // const arr1 = ["Cecilie", "Lone"]
 // const arr2 = ["Emil", "Tobias", "Linus"]
@@ -37,3 +37,35 @@
 // const ages = [32, 33, 16, 40];
 // const result = ages.filter(checkAdult);
 
+
+//MAP
+// const numbers = [4, 9, 16, 25];
+// const newArr = numbers.map(Math.sqrt)
+// console.log(newArr)
+
+
+//Multiply all the values in an array with 10:
+// const numbers = [65, 44, 12, 4];
+// const newArr = numbers.map(myFunction)
+
+// function myFunction(num) {
+//   return num * 10;
+// }
+// console.log(newArr)
+
+//filter
+// const ages = [32, 33, 16, 40];
+// const result = ages.filter(checkAdult);
+
+// function checkAdult(age) {
+//   return age >= 18;
+// }
+// console.log(result)
+
+const numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction)
+
+function myFunction(item, index, arr) {
+  arr[index] = item * 10;
+}
+console.log(numbers)
